@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(200, 197, 197);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    background-color: white;
+    width: 250px;
+    gap: 20px;
+    margin-left:480px;
+    margin-top: 220px;
+    border-radius: 7px;
+    
+}
+.time{
+    color: white;
+    font-weight: bold;
+}
+.flex1{
+    display: flex;
+    background-color: rgb(7, 131, 255);
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 20px;
+    border-radius: 7px;
+    
+}
+.flex2{
+    display: flex;
+    gap: 10px;  
+    margin-bottom: 20px;  
+}
+.but{
+    background-color: rgb(223, 221, 216);
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 30px;
+    color: rgb(32, 154, 255);
+    transition: 0.2s ease-in;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.but:hover{
+    background-color: rgb(32, 154, 255);
+    color: white;
+    transition: 0.2s ease-in;
+
+}
